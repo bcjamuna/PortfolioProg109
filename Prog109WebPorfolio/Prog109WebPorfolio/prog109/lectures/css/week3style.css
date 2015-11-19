@@ -1,0 +1,76 @@
+﻿body {
+    background-color: #FFB6C1;
+}
+/*This is an ID */
+#main {
+    background-image: url('../../images/croppednature.jpg');
+}
+
+
+nav {
+    background-image: url('../../images/lighttexture.jpg');
+    display: inline-block;
+    background-color: #9ba684;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 1px 2px .5em;
+    box-shadow: 3px 3px 3px #444;
+}
+        
+h1 {
+    color: #ff00c3;
+}
+
+
+
+h2 {
+    color: gray;
+    font-size: 25pt;
+}
+
+/*This is a class */
+h1.lectures {
+    background-color: white;
+}
+
+p {
+    padding-left: 10px;
+    font-family: 'AlexBrushRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30pt;
+}
+
+ul {
+    list-style-image:url('../../images/happybulletsmallerwhite.png');
+   
+}
+
+#chesspage {
+    list-style-type:none;
+    font-family: 'CRYSTALRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15pt;
+    text-align: left;
+    text-shadow: 0px 0px 15px rgba(227, 227, 227, 0.75);
+    color:#E60075;
+}
+
+#navweek2{
+    list-style-type:none;
+    font-family: 'StationMedium';
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 15pt;
+    text-align: left;
+    text-shadow: 0px 0px 15px rgba(227, 227, 227, 0.75);
+    color: #121313;
+}
+
+a{
+    font-family:Aharoni,'Arial Rounded MT';
+    font-size:medium;
+}

@@ -1,0 +1,43 @@
+﻿body {
+    background-image: url('../../images/geolighttexture.jpg');
+    text-align: center;
+}
+#wrapper {
+    border-top: 1px solid #888;
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
+    border-bottom: 1px solid #888;
+    position: relative;
+    max-width: 70%;
+    height:75%;
+    align-items: center;
+    padding: 0 50px 20px 20px;
+    box-shadow: 3px 3px 3px #444;
+    background-color: rgba(255, 255, 255, 0.36);
+    top: 20px;
+}
+h1 {
+    font-family:Broadway;
+    color:#9d3553;
+    font-size:xx-large;
+}
+
+h2 {
+    font-family:'Comic Sans MS';
+    color:#630a4b;
+    font-size:large;
+}
+
+#result {
+    font-family:cursive;
+    font-size:large;
+    color:#4800ff
+}
+#footer {
+   line-height: 10px;
+    margin: 0;
+    width: auto;
+    text-align: left;
+    padding: .5em .1em;
+    text-align:left;
+}

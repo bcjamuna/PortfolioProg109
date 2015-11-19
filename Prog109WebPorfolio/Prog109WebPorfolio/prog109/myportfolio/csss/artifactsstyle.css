@@ -1,0 +1,180 @@
+﻿
+@import url('portfolioheaderwrapperfooter.css');
+
+
+
+
+/*header, section, #header footer, aside, nav, article, figure, figcaption, #figure-contact {
+    display: inline-block;
+}*/
+
+section, aside, article, figure, figcaption {
+    display: block;
+}
+
+.wrapper {
+    padding: 0 0 0 1em;
+    text-align: left;
+    overflow: auto;
+    clear: both;
+}
+
+main {
+    
+}
+
+section, aside {
+    margin-top: 2em;
+}
+
+/*section {
+    float: right;
+    width: 550px;
+    border-left: 1px solid #eeeeee;
+    /*padding-left: 25px;
+    padding-right:40px;
+    padding-left:25px;
+}*/
+
+article {
+    display: inline-block;
+    padding: 10px;
+    width: 550px;
+    border: 1px solid #eeeeee;
+    clear: both;
+    margin: 10px 10px 10px 40px;
+    text-align: justify;
+}
+
+.figure {
+    display: inline-block;
+    float: left;
+}
+
+figure {
+    float: left;
+    /*width: 550px;
+    height: 300px;*/
+    padding: 15px 10px 10px;
+}
+
+figcaption {
+    font-size: 80%;
+    color: black;
+    text-align: center;
+}
+
+section {
+    padding-right: 5px;
+    /*float:right;*/
+}
+
+aside {
+    width: 220px;
+   
+    float: left;
+    padding: 0 0 0 5px;
+    margin-left: 20px;
+    margin-bottom:100%;
+    overflow:hidden;
+}
+
+    aside section a {
+        display: block;
+        padding: 10px;
+        line-height: 30px;
+        border-bottom: 1px solid #eeeeee;
+    }
+
+        /*body, html {
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+for MAC
+    body.noscroll{
+    position:fixed;
+    overflow:hidden;
+}*/
+
+        aside section a:hover {
+            color: #985d6a;
+            background-color: #efefef;
+        }
+
+a {
+    color: rgba(1, 1, 1, 0.87);
+    text-decoration: none;
+}
+
+#header {
+    margin: .5em 1em 1em;
+    padding: 0 0 5px 0;
+    /*margin: 2em;*/
+}
+h6 {
+    display:none;
+}
+
+h5 {
+  font-size: 1.57em;
+    letter-spacing:normal;
+    text-align: center;
+   padding-top:7px;
+}
+
+h2, h3 {
+    font-weight: normal;
+}
+
+h2 {
+    /*font-size: 1.25em;
+    padding: 3px 0;
+    color: black;*/
+    font-size: 1em;
+    /*margin: 5px 0 5px 0;*/
+    /*padding-top: 2px;*/
+    color: black;
+}
+
+h3 {
+    color: rgba(40, 26, 22, 0.68);
+    font-size: .9em;
+}
+
+aside h2 {
+    padding: 0 0 10px 0;
+    color: #000000;
+}
+
+/*span + span {
+    margin-left: 15px;
+}*/
+
+p {
+    -ms-word-wrap: normal;
+    word-wrap: normal;
+    font-size: .8em;
+    /*padding-top: 5px;*/
+    white-space: normal;
+    /*font-size:1em;*/
+    line-height: 1.5em;
+}
+
+/*.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}*/

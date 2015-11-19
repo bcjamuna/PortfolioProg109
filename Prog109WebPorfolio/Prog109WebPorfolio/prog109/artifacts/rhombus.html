@@ -1,0 +1,77 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Rhombus</title>
+    <link href="css/rhombusstyle.css" rel="stylesheet" />
+</head>
+
+
+<body>
+    <h1>Customize the Rhombus</h1>
+    <main>
+        <header>by: Jamuna Blumette</header>
+        <div id="leftwrapper">
+
+
+            <h3>Customize the Rhombus.</h3>
+
+            <label>Choose one color:</label><br />
+            <select id="colorEven">
+                <option value="#99FF66">lime</option>
+                <option value="#FFB3B3">coral</option>
+                <option value="#FFFF6E">yellow</option>
+            </select><br /><br />
+            <label>Choose another color:</label> <br />
+            <select id="colorOdd">
+                <option value="#FF3399">pink</option>
+                <option value="#F9F9F9">white</option>
+                <option value="#1CFFFF">blue</option>
+            </select><br />
+            <br />
+            <label>
+                How many rows will your Rhombus have?
+                <br /><span style="font-size:smaller">(for small screens:enter a number less than 20)</span>
+            </label><br />
+            <input type="text" id="rHeight" /><br /><br />
+            <label>Shape the Rhombus</label><br />
+            <select id="symbol">
+                <option value="@">@</option>
+                <option value="+">+</option>
+                <option value="%">%</option>
+                <option value="$">$</option>
+            </select><br /><br />
+            <button onclick="createRhombus(
+                   getElementById('rHeight').value,
+                   getElementById('colorEven').value,
+                   getElementById('colorOdd').value,
+                   getElementById('symbol').value);">
+                Create Rhombus
+            </button>
+            <div class="clear"></div>
+            <br />
+        </div>
+
+        <div id="wrapper">
+            <div id='display'>
+                <div id="upperLeft"></div>
+                <div id="upperRight"></div>
+                <br />
+                <div id="bottomLeft"></div>
+                <div id="bottomRight"></div>
+            </div>
+        </div>
+
+    </main>
+
+    <hr />
+    <footer>
+        <p>
+            <a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0" height="25" width="63" /></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img style="border:0;width:63px;height:25px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" /></a>
+        </p>
+    </footer>
+    <script src="js/rhombus.js" type="text/javascript"></script>
+</body>
+</html>

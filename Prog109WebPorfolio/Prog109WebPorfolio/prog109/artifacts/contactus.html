@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+
+    <link href="css/stylesheet.css" media="screen" rel="stylesheet" />
+</head>
+
+<body>
+
+    <form action="../myportfolio/thankyou.html" method="get">
+        
+        <!-- <form><input formmethod="post" formaction="/prog109/myportfolio/thankyou.html" type="submit" value="thankyou.html" /></form>-->
+        <div id="header"><h1>Contact Us</h1></div>
+
+        <section>
+            <div id="wrapper">
+
+                <article class="left">
+
+                    <div id="inputs">
+                        <h2>Create Your Account</h2>
+                        <form name="input" action="#" method="post">
+
+                            Username<span style="x-small">(Max 12 characters)</span>:<input type="text" name="username" value="username"><br />
+                            Password<span style="x-small">(Min 7 characters)</span>:<input type="password" name="password" value="password"><br />
+                            Re-enter Password: <input type="password" name="password" value="Password"><br /><br />
+                        </form>
+                    </div>
+                    <form id="options">
+                        <input type="radio" name="title" value="mr">Mr.
+                        <input type="radio" name="title" value="mrs">Mrs.
+                        <input type="radio" name="title" value="miss">Ms.<br />
+                    </form>
+
+                    <div id="inputs">
+                        <form name="input" action="#" method="post">
+                            First name:<input type="text" name="fname" value="first name"><br />
+                            Last name: <input type="text" name="lname" value="last name"><br />
+                            E-mail: <input type="email" name="email" value="e-mail address"><br />
+                            Phone Number:<input type="tel" name="phone number" value=" 123-123-1234"><br />
+                        </form>
+                    </div>
+                </article>
+
+                <article class="right">
+                    <div id="inputs">
+
+                        <fieldset>
+                            <legend>Current Address</legend>
+
+                            <form name="input" action="#" method="post">
+                                Street Address: <input type="text" name="street" value="street address"><br />
+                                City: <input type="text" name="city" value="city"><br />
+                                <label>State:</label>
+                                <select name="input">
+                                    <option value="blank"></option>
+                                    <option value="AL">Alabama</option>
+                                    <option value="AK">Alaska</option>
+                                    <option value="AZ">Arizona</option>
+                                    <option value="AR">Arkansas</option>
+                                    <option value="CA">California</option>
+                                    <option value="CO">Colorado</option>
+                                    <option value="CT">Connecticut</option>
+                                    <option value="DE">Delaware</option>
+                                    <option value="DC">District Of Columbia</option>
+                                    <option value="FL">Florida</option>
+                                    <option value="GA">Georgia</option>
+                                    <option value="HI">Hawaii</option>
+                                    <option value="ID">Idaho</option>
+                                    <option value="IL">Illinois</option>
+                                    <option value="IN">Indiana</option>
+                                    <option value="IA">Iowa</option>
+                                    <option value="KS">Kansas</option>
+                                    <option value="KY">Kentucky</option>
+                                    <option value="LA">Louisiana</option>
+                                    <option value="ME">Maine</option>
+                                    <option value="MD">Maryland</option>
+                                    <option value="MA">Massachusetts</option>
+                                    <option value="MI">Michigan</option>
+                                    <option value="MN">Minnesota</option>
+                                    <option value="MS">Mississippi</option>
+                                    <option value="MO">Missouri</option>
+                                    <option value="MT">Montana</option>
+                                    <option value="NE">Nebraska</option>
+                                    <option value="NV">Nevada</option>
+                                    <option value="NH">New Hampshire</option>
+                                    <option value="NJ">New Jersey</option>
+                                    <option value="NM">New Mexico</option>
+                                    <option value="NY">New York</option>
+                                    <option value="NC">North Carolina</option>
+                                    <option value="ND">North Dakota</option>
+                                    <option value="OH">Ohio</option>
+                                    <option value="OK">Oklahoma</option>
+                                    <option value="OR">Oregon</option>
+                                    <option value="PA">Pennsylvania</option>
+                                    <option value="RI">Rhode Island</option>
+                                    <option value="SC">South Carolina</option>
+                                    <option value="SD">South Dakota</option>
+                                    <option value="TN">Tennessee</option>
+                                    <option value="TX">Texas</option>
+                                    <option value="UT">Utah</option>
+                                    <option value="VT">Vermont</option>
+                                    <option value="VA">Virginia</option>
+                                    <option value="WA">Washington</option>
+                                    <option value="WV">West Virginia</option>
+                                    <option value="WI">Wisconsin</option>
+                                    <option value="WY">Wyoming</option>
+                                    <option value="AS">American Samoa</option>
+                                    <option value="GU">Guam</option>
+                                    <option value="MP">Northern Mariana Islands</option>
+                                    <option value="PR">Puerto Rico</option>
+                                    <option value="UM">United States Minor Outlying Islands</option>
+                                    <option value="VI">Virgin Islands</option>
+                                    <option value="AA">Armed Forces Americas</option>
+                                    <option value="AP">Armed Forces Pacific</option>
+                                    <option value="AE">Armed Forces Others</option>
+                                </select>
+                                Zipcode: <input type="text" name="zipcode" value="zipcode"><br />
+                            </form>
+                        </fieldset>
+                    </div>
+
+                    <div>
+                        <form id="options">
+
+                            <h3>Tell Us More:</h3>
+                            <p>Which web technologies do you know?</p>
+                            <ul>
+                                <li><input type="checkbox" name="notify" value="css" checked>CSS</li>
+                                <li><input type="checkbox" name="notify" value="html">HTML</li>
+                                <li><input type="checkbox" name="notify" value="javascript">Javascript</li>
+                            </ul>
+                        </form>
+                    </div>
+                    <br />
+                    <div id="inputs">
+                        Feel free to add any comments:<textarea name="msg"></textarea>
+                    </div>
+                </article>
+                <div class="break">
+
+                    <div id="subwrapper">
+                        <div id="cancel">
+                            <input class="button" type="button" onclick="window.location.replace('http://bcjamunaweek4.azurewebsites.net/prog109/lectures/week3.html')" value="Cancel" />
+                        </div>
+                        <div id="submit">
+                            <input type="submit" value="Submit">
+                            <!--form-action?-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </form>
+    <!--</form>-->
+    
+    <div id="footer_container">
+        <div id="footer">
+            <p><a href="http://validator.w3.org/check?uri=referer" target="_blank">Nu Html Checker</a></p>
+            <p><a href="https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">CSS Validator</a></p>
+        </div>
+    </div>
+   
+</body>
+</html>

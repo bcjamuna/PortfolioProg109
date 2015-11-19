@@ -1,0 +1,294 @@
+﻿@import url('portfolioheaderwrapperfooter.css');
+
+
+
+
+/**************************Contact Form CSS**************************/
+
+
+header, section, footer, aside, nav, article, figure, figcaption, #figure-contact {
+    display: block;
+}
+
+
+.wrapper {
+    padding: 0 0 0 1em;
+    
+}
+
+
+/*header title*/
+h1 {
+    text-align: center;
+    color: black;
+    width: 100%;
+    position: absolute;
+    line-height: 3.25em;
+    font-size: 2.5em;
+}
+
+.header {
+    margin: 1em;
+    padding: 0 0 10px 0;
+
+}
+
+section, aside{
+    margin-top:1em;
+}
+
+section.form {
+    float: right;
+    width: 550px;
+    border-left: 1px solid #eeeeee;
+    padding-left: 25px;
+    /*form on right*/
+}
+
+div {
+    margin-top: 15px;
+}
+figure {
+    /*width: 300px;
+    height: 220px;*/
+    padding: 5px;
+    padding-left: 5px;
+    margin: 35px 35px auto 35px;
+    border: 1px solid #eeeeee;
+}
+#contactform {
+   float:right;
+}
+
+.cutepuppy {
+   float:left;
+   text-align:center; 
+   
+}
+
+figcaption {
+    font-size: 80%;
+    color: black;
+}
+
+/*aside {
+    width: 250px;
+    float: left;
+    /*padding: 0 0 0 5px;
+    clear: left;
+}*/
+
+/*alt aside*/
+
+aside {
+    width: 30%;
+    float: left;
+    padding: 80px 0 180px 0;
+    clear: left;
+    /* margin: 10px; */
+      max-width: 100%; 
+    height: auto; 
+}
+
+    aside section a {
+        display: block;
+        padding: 10px;
+        line-height: 30px;
+        border-bottom: 1px solid #eeeeee;
+    }
+
+body, html {
+    overflow: hidden;
+    overflow-y: auto;
+    margin: 0 auto;
+}
+
+/*for MAC?
+    body.noscroll{
+    position:fixed;
+    overflow:hidden;
+}*/
+
+aside section a:hover {
+    color: #985d6a;
+    background-color: #efefef;
+}
+
+a {
+    color: #6b3541;
+    text-decoration: none;
+}
+
+h5 {
+    font-size: 1.57em;
+    letter-spacing:normal;
+    text-align: center;
+}
+
+h2, h3 {
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 5px 0 5px 0;
+    padding: 3px 0;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    color: black;
+}
+
+h3 {
+    margin: 40px 0;
+    color: rgba(40, 26, 22, 0.68);
+    font-size: 1em;
+}
+h4{
+    font-size:xx-small;
+    display:none;
+}
+
+aside h2 {
+    padding: 30px 0 10px 0;
+    color: #000000;
+}
+
+
+p{
+    white-space: nowrap;
+    font-size:1em;
+    padding-top:5px;
+}
+/*footer, #js-current-time {
+    display:inline-block;
+}
+
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}*/
+
+
+/**************************Contact Form CSS**************************/
+
+/*#cutepuppy {
+    
+     max-width: 100%; 
+    height: auto; 
+   
+}*/
+
+input, textarea, select {
+    padding: 10px;
+    border: 1px solid #E5E5E5;
+    width: 200px;
+    color: #999999;
+    /*-moz-box-shadow: rgba(30, 157, 150, 0.53) 0 0 8px none;
+    -webkit-box-shadow: rgba(30, 157, 150, 0.53) 0 0 8px none;*/
+    box-shadow: rgba(30, 157, 150, 0.53) 0 0 8px;
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+    max-width: 400px;
+}
+
+    input:hover, textarea:hover,
+    input:focus, textarea:focus {
+        border-color: #C9C9C9;
+        border: 1px solid;
+        /*-moz-box-shadow: #C9C9C9 0 8px none;
+        -webkit-box-shadow: #C9C9C9 0 8px none;*/
+        box-shadow: #C9C9C9 0 8px;
+    }
+
+.form label {
+    margin-left: 10px;
+    color: #999999;
+    line-height: 2em;
+}
+
+.e {
+    float: right;
+}
+
+#submit {
+    color: #eeeeee;
+    font-size: 1em;
+    border: 2px solid rgba(87, 56, 48, 0.27);
+    background-color: rgba(87, 56, 48, 0.26);
+    box-shadow: -3px 0 15px -15px #de6581, 3px 0 15px -15px #eeeeee;
+    border-top: 1px solid rgba(87, 56, 48, 0.26);
+    border-radius: 2px 10px;
+    width: 80px;
+    height: 30px;
+    float: right;
+    padding: 2px 15px;
+}
+
+/********************End Contact Form******************************/
+
+/********************clock****************************
+
+
+#clk_box {
+    background: url("//c.tadst.com/gfx/spr_fp.png") no-repeat;
+    background-position: 0 0;
+    width: 107px;
+    height: 66px;
+    display: block;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    float: right;
+}
+#clk_hm {
+    width: 67px;
+    font-size: 26px;
+    position: absolute;
+    left: 9px;
+    top: 17px;
+    font-weight: normal;
+    line-height: 26px;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+}
+#clk_s {
+    font-size: 15px;
+    position: absolute;
+    right: 11px;
+    top: 24px;
+    text-shadow: 1px 1px 1px #000;
+}
+#clk_am {
+    color: #a2e1f9;
+    position: absolute;
+    top: 12px;
+    right: 9px;
+    text-shadow: 1px 1px 1px #000;
+}
+#clk_line {
+    width: 70px;
+    border-bottom: 1px solid #000;
+    z-index: 99;
+    position: absolute;
+    top: 30px;
+    left: 8px;
+}
+
+
+*************End clock******************************/

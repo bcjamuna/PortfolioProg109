@@ -1,0 +1,7 @@
+﻿#upLeft, #upRight, #downLeft, #downRight {
+  float:left;
+}
+
+.break {
+  clear:both;
+}

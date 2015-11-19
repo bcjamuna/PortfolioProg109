@@ -1,0 +1,112 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body, #title, #menu, main, #navlist, #board, footer {
+    display:block;
+}
+
+body {
+    background-image: url(/prog109/images/paisley.jpg);
+    background-repeat: repeat;
+}
+
+#title, #menu, main {
+    width: auto;
+}
+
+#title {
+    font-size: xx-large;
+    font-family: 'UniqueRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+#menu {
+    border-style: groove;
+    background-color: #333333;
+    height: 75px;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+/*navlist refers to menu links and images*/
+#navlist {
+    list-style: none;
+}
+
+    #navlist li {
+        display: inline-block;
+        background-repeat: no-repeat;
+        line-height: 35px;
+    }
+
+        #navlist li a {
+            text-decoration: none;
+            padding-left: 30px;
+            color: white;
+        }
+
+        #navlist li.home {
+            background-image: url(/prog109/images/gold-king1.png);
+        }
+
+        #navlist li.bc {
+            background-image: url(/prog109/images/gold-castle1.png);
+        }
+
+        #navlist li.historychess {
+            background-image: url(/prog109/images/gold-knight1.png);
+        }
+
+main {
+    display: block;
+    position: relative;
+    padding-left: 12em;
+}
+/*This is an ID*/
+#board {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 640px;
+    height: 400px;
+    /*text align center aligned all chess pieces at center of their squares*/
+}
+
+/*This is a class*/
+.row {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.darkcell, .lightcell {
+    width: 40px;
+    height: 40px;
+    border-style: hidden;
+    float: left;
+}
+
+.darkcell {
+    background-color: #000000;
+}
+
+.lightcell {
+    background-color: #ffffff;
+}
+
+.break {
+    clear: both;
+}
+
+footer {
+    padding: 5px;
+    margin: 10px;
+}

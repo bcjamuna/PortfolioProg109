@@ -1,0 +1,179 @@
+﻿
+@import url('portfolioheaderwrapperfooter.css');
+
+/*header, section, #headertext footer, aside, nav, article, figure, figcaption, #figure-contact {
+    display: inline-block;
+}*/
+
+#wrapper {
+    font-family: sans-serif;
+    line-height: 1.3em;
+    padding: .7em 1.5em 1.5em 1.5em;
+    font-size: 1.6em;
+    width: 930px;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    box-shadow: -3px 0 5px -3px rgba(1, 1, 1, 0.87), 3px 0 5px -3px rgba(1, 1, 1, 0.87);
+    border-top: 1px solid #333;
+    border-radius: 10px 10px;
+    position: static;
+    z-index: 4;
+    overflow: hidden;
+    clear: both;
+   
+}
+
+article {
+    float: left;
+    width: 500px;
+    border-right: 1px solid #eeeeee;
+    /*padding: 0 25px;*/
+    padding:1.2em 1em .5em 0;
+    border-bottom: 1px solid #eeeeee;
+    overflow: hidden;
+    clear: both;
+}
+
+.header {
+    margin: 0 2em 2em 0;
+    padding: 0 0 10px 0;
+}
+
+
+.figure {
+    display: inline-block;
+    float: left;
+}
+
+figure {
+    width: 300px;
+    height: 250px;
+    padding: 5px;
+    padding-left: 5px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+}
+
+figcaption {
+    font-size: xx-small;
+    font-style: italic;
+    color: rgba(40, 26, 22, 0.68);
+}
+
+aside {
+    width: 220px;
+    /*float: left;*/
+    padding: 0 0 0 10px;
+    margin: 100px 0 5px 10px;
+    text-align: right;
+}
+
+    aside section a {
+        display: block;
+        padding: 10px;
+        line-height: 30px;
+        border-bottom: 1px solid #eeeeee;
+    }
+
+    /*aside section a {
+        display: block;
+    }*/
+
+body, html {
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+/*for MAC
+    body.noscroll{
+    position:fixed;
+    overflow:hidden;
+}*/
+
+aside section a:hover {
+    color: #985d6a;
+    background-color: #efefef;
+}
+
+.list {
+    padding-top: .5em;
+}
+
+a {
+    color: #6b3541;
+    text-decoration: none;
+}
+
+h5 {
+    font-size: 1.57em;
+    letter-spacing:normal;
+    text-align: center;
+    padding-top:2px;
+}
+
+h2, h3 {
+    /*margin: 10px 0;*/
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 1em;
+    /*margin: 5px 0 5px 0;*/
+    padding-top: 2px;
+    color: black;
+}
+
+h3 {
+    color: rgba(40, 26, 22, 0.68);
+    font-size: .9em;
+}
+
+aside h2 {
+    padding: 30px 0 10px 0;
+    color: #000000;
+}
+
+span {
+    padding: 3px;
+}
+
+    span.inlineref {
+        font-size: xx-small;
+        float: right;
+        font-style: italic;
+        color: rgba(40, 26, 22, 0.68);
+        padding: 0;
+        margin: 0;
+    }
+
+#navlist {
+    font-size: .8em;
+    list-style-type: square;
+    padding: 0 0 5px 15px;
+    
+    margin: 8px 0 0 15px;
+}
+
+p {
+    white-space: normal;
+    font-size:.8em;
+    padding-top:5px;
+}
+
+/*.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}*/

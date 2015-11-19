@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" content="Week #2 - Part 2">
+    <meta charset="utf-8">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <br>
+    <br>
+   
+    <form action="myportfolio/thankyou.html" method="get">
+        <fieldset>
+            <legend>User Information</legend>
+            <label>
+                Enter your name:<br>
+                <input type="text"
+                       name="firstname"
+                       size="30" maxlength="30" />
+            </label>
+            <br>
+            <label>
+                Enter your password:<br>
+                <input type="password"
+                       name="userpassword"
+                       size="30" maxlength="30" />
+            </label><br><br>
+            <label>
+                Tell us about you<br>
+                <textarea rows="5" cols="30" name="about">
+                </textarea>
+            </label>
+            <br />
+        </fieldset>
+        <br>
+        <label>
+            Are you new to my site?<br>
+            <input type="radio" name="survey" value="yes" />yes
+
+            <input type="radio" name="survey" value="no" />no
+        </label>
+        <br>
+        <br>
+        <label>
+            Do you want to subscribe to my blog?
+            <input type="checkbox"
+                   name="subscribe"
+                   checked="checked" />
+        </label>
+        <br>
+        <br>
+        <label>What is your student's year?</label>
+        <select name="status">
+            <option value="">Select one option...</option>
+            <option value="fresh">Freshman</option>
+            <option value="soph">Sophomore</option>
+            <option value="jun">Junior</option>
+            <option value="sen">Senior</option>
+        </select>
+        <br>
+        <br>
+        <label>Where did you hear about me?</label><br>
+        <select name="source"
+                multiple="multiple"
+                size="3">
+
+            <option value="web">Web</option>
+            <option value="new">Newspaper</option>
+            <option value="fri">Friends</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="SEND">
+    </form>
+</body>
+</html>

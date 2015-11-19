@@ -1,0 +1,17 @@
+﻿footer {
+    text-align: center;
+    width: 100%;
+    clear: both;
+    color: #ffffff;
+    background-color: #aeaca8;
+    height: 75px;
+    z-index: 1;
+    font-size: 90%;
+    padding: 5px 0 50px 20px;
+    display: block;
+    border-radius: 10px 10px 0 0;
+}
+#js-current-time{
+   /*float:right;*/
+   margin-top:0;
+}

@@ -1,0 +1,137 @@
+﻿
+
+@import url('portfolioheaderwrapperfooter.css');
+
+
+.wrapper {
+    padding: 0 0 0 1em;
+    text-align:center;
+   overflow-wrap:normal;
+}
+
+
+
+section.courses {
+    float: right;
+    width: 650px;
+    border-left: 1px solid #eeeeee;
+    /*padding-left: 25px;*/
+    padding-right:20px;
+    
+}
+
+/*hgroup {
+    margin-top: 110px;
+    
+}*/
+
+
+
+figure {
+    float: left;
+    /*width: 300px;
+    height: 220px;*/
+    padding: 5px 0 0 0;
+    padding-left: 5px;
+    margin: 90px 20px 20px;
+    border: 1px solid #eeeeee;
+
+}
+
+figcaption {
+    font-size: 80%;
+    
+    color: black;
+}
+
+aside {
+    width: 220px;
+    float: left;
+    padding: 0 0 0 5px;
+   
+}
+
+    aside section a {
+        display: block;
+        padding: 10px;
+        line-height: 30px;
+        border-bottom: 1px solid #eeeeee;
+    }
+
+body, html {
+    overflow: auto;
+    overflow-y: auto;
+}
+
+/*for MAC
+    body.noscroll{
+    position:fixed;
+    overflow:hidden;
+}*/
+
+aside section a:hover {
+    color: #985d6a;
+    background-color: #efefef;
+}
+
+a {
+    color: rgba(1, 1, 1, 0.87);
+    text-decoration: none;
+}
+h5 {
+       font-size: 1.57em;
+    letter-spacing:normal;
+    text-align: center;
+   padding-top:15px;
+}
+h2, h3 {
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 1.25em;
+    margin: 5px 0 5px 0;
+    padding: 3px 0;
+    color: black;
+}
+
+h3 {
+    margin: 10px 0;
+    color: rgba(40, 26, 22, 0.68);
+    font-size: 1em;
+}
+
+aside h2 {
+    padding: 60px 0 10px 0;
+    color: #000000;
+}
+
+
+p{
+    white-space: normal;
+    font-size:1em;
+    padding-top:5px;
+}
+
+
+
+
+
+
+/*.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}*/

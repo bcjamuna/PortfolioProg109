@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "Prog109WebPorfolio"
+  },
+  "hostingPlanName": {
+    "value": "Nov15"
+  },
+  "siteLocation": {
+    "value": "West US"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "0a81bbdb-0d44-44aa-8a34-16b0283675a6"
+  },
+  "resourceGroup": {
+    "value": "Default-ApplicationInsights-CentralUS"
+  }
+}

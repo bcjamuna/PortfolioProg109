@@ -1,0 +1,59 @@
+﻿@import "heading.css";
+@import "paragraph.css";
+
+/*defining everything on the page use *  */
+* {
+    font-family: "Arial Black" Gadget, sans-serif;
+}
+
+v * {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.sitelink {
+    font-family: Georgia, serif;
+}
+
+#tonyquote {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+        color: Black;
+}
+p.sitelink {
+    font-family: "Palantino Linotype", "Book Antiqua", "Palantino", "serif";
+color:black;
+}
+
+span#tonyname {
+   font:"Times New Roman", Times, Serif;
+   color:blue;
+}
+
+#tutorials ol li {
+    color: purple
+}
+
+#tutorials ul li {
+    color:green;
+}
+
+h3 + p{
+    font-style: italic;
+}
+
+h3 + p {
+    font-style: italic;
+}
+
+h3 + p > a {
+    color:red;
+}
+
+p[class]{
+    background:gray;
+}
+
+p[id]{
+    background: yellow;
+}
+
+*[alt~="nintendo"] {background: orange}
