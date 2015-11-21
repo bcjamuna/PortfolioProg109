@@ -1,11 +1,11 @@
 ﻿var listImages = ["https://d1tijy5l7mg5kk.cloudfront.net/assets/custom/review/2014/2014-javascript-road-trip-part-1-e04efc79c465b890f6b9680abf3f44b5.png",
-  "http://www.ginger-cookielaw.com/wp-content/uploads/2015/07/js-logo-badge-512.png",
-   "http://localhost:64688/../../images/looping.png",
+  "http://villageparksource.com/wp-content/uploads/2014/09/languages.png",
+   "http://jamunafinalportfolio.azurewebsites.net/prog109/images/looping.png",
     "https://achievement-images.teamtreehouse.com/javascript-loops-stage3.png",
 "https://assets-cdn.github.com/images/modules/logos_page/Octocat.png"];
    
 
-var captionImage = ["CSS 3 & HTML 5", "JavaScript", "Web Development", "JavaScript Loops", "GitHub"];
+var captionImage = ["JavaScript", "HTML JavaScript CSS", "Looping", "JavaScript Loops", "GitHub"];
 
 
 var i = 0;

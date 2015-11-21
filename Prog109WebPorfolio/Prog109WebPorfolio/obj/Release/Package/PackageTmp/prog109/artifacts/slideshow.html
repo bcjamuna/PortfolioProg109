@@ -5,28 +5,45 @@
 
     <meta name="description" content="Week #8 - PROG 109 - BC">
     <meta charset="utf-8">
-    <title>Picture Slideshow</title>
+    <title>JavaScript Slideshow</title>
 </head>
 <body>
-    <header>JavaScript Slideshow</header>
+    
+    <header>
+       <h1>JavaScript Slideshow</h1>
+        <img src="../images/greyjbcrp.png" id="logo" alt="jblogo" />
+
+        <nav>
+            <ul>
+                <li><a href="../../index.html"> HOME</a></li>
+                <li><a href="../myportfolio/about.html">ABOUT</a></li>
+                <li><a href="../myportfolio/coursework.html">COURSEWORK</a></li>
+                <li><a href="../myportfolio/artifacts.html">ARTIFACTS</a></li>
+                <li><a href="../myportfolio/contactform.html">CONTACT ME</a></li>
+                <li><a href="../myportfolio/mypage.html">MY PAGE</a></li>
+            </ul>
+        </nav>
+    </header>
     <div id="wrapper">
 
-        <p id="p1">Automatic Slideshow</p>
+        <!--<p id="p1">Automatic Slideshow</p>-->
 
-        <input id="auto" type="checkbox" width="50px" height="50px">Run automatically
 
-        <p>
-            <img id="htmlcss"
+        <p id="captions">Welcome!</p>
+        <section>
+            <h6>Picture window for slideshow</h6>
+            <img id="htmlcss" alt="javascript mountain image"
                  src="https://d1tijy5l7mg5kk.cloudfront.net/assets/custom/review/2014/2014-javascript-road-trip-part-1-e04efc79c465b890f6b9680abf3f44b5.png" />
-        </p>
+        </section>
 
-
-        <p id="captions">Captions</p>
+       
         <div>
             <button id="previous">PREVIOUS</button>
             <button id="next">NEXT</button>
 
         </div>
+        
+        <input id="auto" type="checkbox">Run automatically
     </div>
     <script src="js/slideshow.js"></script>
 

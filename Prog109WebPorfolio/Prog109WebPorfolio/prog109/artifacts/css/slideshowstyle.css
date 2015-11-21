@@ -7,32 +7,32 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    background-size: contain;
     text-align:center;
+    
 }
 
-section, #htmlcss, aside, article, figure, figcaption,#logo {
+section, #htmlcss, aside, article, figure, figcaption{
     display: inline-block;
 }
 /*header, section, .header, footer, aside, nav, article, figure, figcaption, #figure-contact {
     display: inline-block;
 }*/
 
-/*#logo {
+#logo {
     /*margin-bottom: 15px;
-    margin-right: 5px;
-    float: left;
-    position: relative;
-    background-image: url('../../images/greyjbcrp.png');
-    height:78px;
-    width:78px;
-}*/
+    margin-right: 5px;*/
+ display:block;
+    clear: both;
+   float:left;
+  margin-top: -80px;
+}
 
 header {
     background-image: url('../../images/greytilesmm.png');
     background-repeat: repeat-x;
     background-color: #333;
     z-index:10;
+   
 }
 
 /*header title*/
@@ -41,16 +41,60 @@ h1 {
     /*color: black;*/
     width: 100%;
     position: relative;
-    line-height: 3.25em;
+    line-height: 3.2em;
     font-size: 2.5em;
  color:#efefef;
 }
 .img {
     
 }
+
+/***********Nav******************/
+
+nav {
+    width: 100%;
+    color: #333;
+    background-color: #aeaca8;
+    border-radius: 0 0 10px 10px;
+    z-index: 1;
+}
+
+    nav ul {
+        padding: 5px 0 5px 30px;
+        text-align: center;
+    }
+
+    nav li {
+        display: inline;
+        margin-right: 40px;
+    }
+
+        nav li a {
+            color: #eeeeee;
+            font-size: 1.25em;
+            border: 2px solid rgba(87, 56, 48, 0.27);
+            background-color: rgba(87, 56, 48, 0.26);
+            box-shadow: -3px 0 15px -15px #de6581, 3px 0 15px -15px #eeeeee;
+            border-top: 1px solid rgba(87, 56, 48, 0.26);
+            border-radius: 2px 10px;
+            padding: 2px 15px;
+            line-height: 25px;
+            /*shape-margin: 10px;*/
+        }
+
+            nav li a:hover, nav li a.current {
+                color: #000000;
+            }
+               nav ul li.selected a {
+            color: #de6581;
+        }
+
+/********End Nav****************/
+
+
 #htmlcss{
     /*width:300px;*/
-    height:300px;
+    height:25em;
     display: block;
     /*float:left;*/
     clear:both;
@@ -84,20 +128,17 @@ body {
     font-size: 62.5%;
     background-color: #333;
     overflow: hidden;
-   
-   
-    
-    
+    overflow-y: auto;
 }
 
    
 
 #wrapper {
     font-size: 1.6em;
-    padding: 0 0 5em 1em;
-    margin: 0 auto;
-    width: 600px;
-    height:450px;
+    padding: 0 auto;
+    margin: 15px auto;
+    width: 45em;
+    height:35em;
     border: 2px solid #000000;
     background-color: #ffffff;
     box-shadow: -3px 0 5px -3px rgba(1, 1, 1, 0.87), 3px 0 5px -3px rgba(1, 1, 1, 0.87);
@@ -217,6 +258,9 @@ h3 {
     clear:both;
 }
 
+h6 {
+    display:none;
+}
 aside h2 {
     padding: 0 0 10px 0;
     color: #000000;
@@ -266,14 +310,14 @@ footer {
     height: 75px;
   
     font-size: 90%;
-
+    line-height: 1.75em;
     position:relative;
   clear: both; 
 
 }
 #js-current-time{
    /*float:right;*/
-   margin-top:0;
+   margin:1px 0 1px;
   
 }
 

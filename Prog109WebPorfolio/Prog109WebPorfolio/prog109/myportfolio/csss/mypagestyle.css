@@ -5,9 +5,11 @@ section, aside, article, figure, figcaption {
 }
 
 #wrapper {
-    padding: 0 0 0 1em;
+    padding: 0 1.5em;
     overflow: hidden;
     clear: both;
+    text-align: center;
+   
 }
 
 /*section.courses {
@@ -18,61 +20,75 @@ section, aside, article, figure, figcaption {
     padding-right:20px;
 }*/
 section {
-    padding-top: 35px;
+    display: block;
+    padding-top: 5px;
     padding-right: 5px;
     /*float:right;*/
+    float: none;
+    text-align: justify;
+    margin: 5px 10px 10px 5px; 
+   
 }
 
 figure {
-    float: left;
+    float: right;
     /*width: 300px;
     height: 220px;*/
-    padding: 5px 0 0 0;
+    padding: 5px 5px 3px 5px;
     padding-left: 5px;
-    margin: 90px 20px 20px;
-    border: 1px solid #eeeeee;
+    /*margin: 90px 20px 20px;*/
+    border: 5px solid rgba(147, 128, 104, 0.78);
+    margin: 15px 0 0 15px;
+    text-align: right;
 }
 
-.img {
+#avatar {
+    float: left;
+    margin: 15px 15px 5px 0;
     display: block;
-    /*float:left;*/
+}
+
+img {
 }
 
 figcaption {
-    font-size: 80%;
+    margin-bottom: 5px;
     color: black;
 }
 
-section, aside {
-    margin-top: 2em;
+aside {
+    margin-top: 1em;
 }
 
 article {
     display: inline-block;
-    padding: 10px;
+    padding: 5px 5px 3px 5px;
     width: 550px;
     border: 1px solid #eeeeee;
     clear: both;
-    margin: 10px 10px 10px 40px;
-    text-align: justify;
+    margin: 10px;
 }
 
 aside {
-    width: 220px;
-    float: right;
+    width: 140px;
+    float: left;
     padding: 0 0 0 5px;
-    margin-right:1.5em;
-    margin-left: 20px;
-    margin-bottom: 100%;
-    overflow: hidden;
+    margin-right: 1em;
+    /*margin-left: 20px;
+    overflow: hidden;*/
+    margin-bottom: 80px;
     clear: both;
+    text-align: left;
+    border-right: 1px solid #eeeeee;
 }
 
     aside section a {
+        font-size: 16px;
         display: block;
-        padding: 10px 10px 10px 20px;
-        line-height: 30px;
+        padding: 10px;
+        line-height: 25px;
         border-bottom: 1px solid #eeeeee;
+        text-align: left;
     }
 
 body, html {
@@ -86,9 +102,19 @@ body, html {
     overflow:hidden;
 }*/
 
+section.pics {
+}
+
 aside section a:hover {
     color: #985d6a;
     background-color: #efefef;
+}
+
+aside h2 {
+    padding: 10px;
+    color: #000000;
+    line-height: 1.2em;
+    text-align: left;
 }
 
 a {
@@ -101,42 +127,78 @@ h5 {
     letter-spacing: normal;
     text-align: center;
     padding-top: 15px;
+    margin-bottom: 35px;
+   
 }
 
 h2, h3 {
     font-weight: normal;
 }
-
+h4 {
+    font-size: 1.25em;
+    /*padding: 3px 0;*/
+    margin: 15px 0 0 0;
+    color: black;
+    font-weight:600;
+    text-align:left;
+}
 h2 {
     font-size: 1.25em;
     padding: 3px 0;
     /*color: black;*/
-    /*font-size: 1em;
-    margin: 5px 0 5px 0;*/
+    /*font-size: 1em;*/
+    margin: 5px 0 5px 0;
     /*padding-top: 2px;*/
     color: black;
+    font-weight:400;
 }
 
 h3 {
     color: rgba(40, 26, 22, 0.68);
     font-size: .9em;
+    margin: 0 7em 3px 7em;
+    text-align: center;
+    text-align: justify;  
+    border-top: 2px solid #efefef; 
+    padding:10px 0;
 }
 
-aside h2 {
-    padding: 0 0 10px 0;
-    color: #000000;
-    line-height:1.2em;
-    text-align:center;
-}
-
-p {
+/*p {
     -ms-word-wrap: normal;
     word-wrap: normal;
     font-size: .8em;
-    /*padding-top: 5px;*/
+    /*padding-top: 5px;
     white-space: normal;
-    /*font-size:1em;*/
+    /*font-size:1em;
     line-height: 1.5em;
+}*/
+p {
+    white-space: normal;
+    font-size: .8em;
+    line-height: 1.5em; 
+    font-size:1.11em;
+}
+#textright{
+    text-align:right;
+    font-size:1em;
+    padding-right:15px;
+}
+#diwali {
+   
+}
+#video-container {
+    padding-top: 4em;
+    padding-bottom: 1em;
+    
+         
+}
+
+#video {
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
 }
 
 /*.invisible {

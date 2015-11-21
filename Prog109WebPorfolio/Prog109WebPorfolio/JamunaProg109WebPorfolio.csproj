@@ -189,6 +189,7 @@
     <Content Include="prog109\images\rhombusthmb.png" />
     <Content Include="prog109\images\rhombusthmbcrp.jpg" />
     <Content Include="prog109\images\slideshowthmb.jpg" />
+    <Content Include="prog109\images\slideshowthmb.png" />
     <Content Include="prog109\images\texturedwhite.jpg" />
     <Content Include="prog109\images\thankyou.jpg" />
     <Content Include="prog109\lectures\css\week9.css" />
