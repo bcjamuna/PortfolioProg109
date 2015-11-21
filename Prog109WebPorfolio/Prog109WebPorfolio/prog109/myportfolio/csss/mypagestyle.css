@@ -1,31 +1,27 @@
-﻿
+﻿@import url('portfolioheaderwrapperfooter.css');
 
-@import url('portfolioheaderwrapperfooter.css');
-
-
-.wrapper {
-    padding: 0 0 0 1em;
-    text-align:center;
-   overflow-wrap:normal;
+section, aside, article, figure, figcaption {
+    display: block;
 }
 
+#wrapper {
+    padding: 0 0 0 1em;
+    overflow: hidden;
+    clear: both;
+}
 
-
-section.courses {
+/*section.courses {
     float: right;
     width: 650px;
     border-left: 1px solid #eeeeee;
-    /*padding-left: 25px;*/
+    /*padding-left: 25px;
     padding-right:20px;
-    
-}
-
-/*hgroup {
-    margin-top: 110px;
-    
 }*/
-
-
+section {
+    padding-top: 35px;
+    padding-right: 5px;
+    /*float:right;*/
+}
 
 figure {
     float: left;
@@ -35,25 +31,46 @@ figure {
     padding-left: 5px;
     margin: 90px 20px 20px;
     border: 1px solid #eeeeee;
+}
 
+.img {
+    display: block;
+    /*float:left;*/
 }
 
 figcaption {
     font-size: 80%;
-    
     color: black;
+}
+
+section, aside {
+    margin-top: 2em;
+}
+
+article {
+    display: inline-block;
+    padding: 10px;
+    width: 550px;
+    border: 1px solid #eeeeee;
+    clear: both;
+    margin: 10px 10px 10px 40px;
+    text-align: justify;
 }
 
 aside {
     width: 220px;
-    float: left;
+    float: right;
     padding: 0 0 0 5px;
-   
+    margin-right:1.5em;
+    margin-left: 20px;
+    margin-bottom: 100%;
+    overflow: hidden;
+    clear: both;
 }
 
     aside section a {
         display: block;
-        padding: 10px;
+        padding: 10px 10px 10px 20px;
         line-height: 30px;
         border-bottom: 1px solid #eeeeee;
     }
@@ -78,45 +95,49 @@ a {
     color: rgba(1, 1, 1, 0.87);
     text-decoration: none;
 }
+
 h5 {
-       font-size: 1.57em;
-    letter-spacing:normal;
+    font-size: 1.57em;
+    letter-spacing: normal;
     text-align: center;
-   padding-top:15px;
+    padding-top: 15px;
 }
+
 h2, h3 {
     font-weight: normal;
 }
 
 h2 {
     font-size: 1.25em;
-    margin: 5px 0 5px 0;
     padding: 3px 0;
+    /*color: black;*/
+    /*font-size: 1em;
+    margin: 5px 0 5px 0;*/
+    /*padding-top: 2px;*/
     color: black;
 }
 
 h3 {
-    margin: 10px 0;
     color: rgba(40, 26, 22, 0.68);
-    font-size: 1em;
+    font-size: .9em;
 }
 
 aside h2 {
-    padding: 60px 0 10px 0;
+    padding: 0 0 10px 0;
     color: #000000;
+    line-height:1.2em;
+    text-align:center;
 }
 
-
-p{
+p {
+    -ms-word-wrap: normal;
+    word-wrap: normal;
+    font-size: .8em;
+    /*padding-top: 5px;*/
     white-space: normal;
-    font-size:1em;
-    padding-top:5px;
+    /*font-size:1em;*/
+    line-height: 1.5em;
 }
-
-
-
-
-
 
 /*.invisible {
     visibility: hidden;

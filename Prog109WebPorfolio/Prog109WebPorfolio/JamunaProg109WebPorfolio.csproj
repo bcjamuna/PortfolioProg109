@@ -114,6 +114,7 @@
     <Content Include="prog109\artifacts\jamuna-resume.html" />
     <Content Include="prog109\artifacts\rhombus.html" />
     <Content Include="prog109\artifacts\js\rhombus.js" />
+    <Content Include="prog109\artifacts\slideshow - Copy.html" />
     <Content Include="prog109\artifacts\slideshow.html" />
     <Content Include="prog109\artifacts\js\slideshow.js" />
     <Content Include="prog109\chess\chesspage.html" />
@@ -136,7 +137,7 @@
     <Content Include="prog109\experimental\styles\heading.css" />
     <Content Include="prog109\experimental\styles\mainstylecss3.css" />
     <Content Include="prog109\experimental\styles\paragraph.css" />
-    <Content Include="prog109\images\bcjamunatar.png" />
+    <Content Include="prog109\images\bcjavatar.png" />
     <Content Include="prog109\images\bclogo.jpg" />
     <Content Include="prog109\images\bcthmb.jpg" />
     <Content Include="prog109\images\bcthmbmed.jpg" />
@@ -176,6 +177,7 @@
     <Content Include="prog109\images\jb_happydiwali.gif" />
     <Content Include="prog109\images\lighttexture.jpg" />
     <Content Include="prog109\images\linedpale.jpg" />
+    <Content Include="prog109\images\looping.png" />
     <Content Include="prog109\images\mtrainierforestsmaller.jpg" />
     <Content Include="prog109\images\mtrainiernightsmall.jpg" />
     <Content Include="prog109\images\nature.jpg" />
@@ -186,8 +188,13 @@
     <Content Include="prog109\images\resumethmbmed.jpg" />
     <Content Include="prog109\images\rhombusthmb.png" />
     <Content Include="prog109\images\rhombusthmbcrp.jpg" />
+    <Content Include="prog109\images\slideshowthmb.jpg" />
     <Content Include="prog109\images\texturedwhite.jpg" />
     <Content Include="prog109\images\thankyou.jpg" />
+    <Content Include="prog109\lectures\css\week9.css" />
+    <Content Include="prog109\lectures\css\week8style.css" />
+    <Content Include="prog109\lectures\js\week9.js" />
+    <Content Include="prog109\lectures\js\week8JavaScript.js" />
     <Content Include="prog109\lectures\week1.html" />
     <Content Include="prog109\lectures\week2.html" />
     <Content Include="prog109\lectures\week2_forms.html" />
@@ -199,6 +206,8 @@
     <Content Include="prog109\lectures\js\week6JavaScript.js" />
     <Content Include="prog109\lectures\week7.html" />
     <Content Include="prog109\lectures\js\week7JavaScript.js" />
+    <Content Include="prog109\lectures\week8.html" />
+    <Content Include="prog109\lectures\week9.html" />
     <Content Include="prog109\myportfolio\about.html" />
     <Content Include="prog109\myportfolio\artifacts.html" />
     <Content Include="prog109\myportfolio\contactform.html" />
@@ -228,6 +237,7 @@
     <Content Include="prog109\lectures\css\week4style.css" />
     <Content Include="prog109\lectures\css\week6style.css" />
     <Content Include="prog109\lectures\css\week7style.css" />
+    <Content Include="prog109\myportfolio\mypage - Copy.html" />
     <Content Include="prog109\myportfolio\mypage.html" />
     <Content Include="prog109\myportfolio\thankyou.html" />
     <Content Include="Web.config" />
