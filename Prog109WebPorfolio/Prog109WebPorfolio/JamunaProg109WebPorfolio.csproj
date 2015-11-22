@@ -109,6 +109,9 @@
     <Content Include="Global.asax" />
     <Content Include="index.html" />
     <Content Include="prog109\artifacts\contactus.html" />
+    <Content Include="prog109\artifacts\contactusvalidated - Copy.html" />
+    <Content Include="prog109\artifacts\css\contactusstylevalidation - Copy.css" />
+    <Content Include="prog109\artifacts\js\contactusjavascript - Copy.js" />
     <Content Include="prog109\artifacts\js\contactusjavascript.js" />
     <Content Include="prog109\artifacts\contactusvalidated.html" />
     <Content Include="prog109\artifacts\jamuna-resume.html" />
