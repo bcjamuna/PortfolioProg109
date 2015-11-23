@@ -27,9 +27,7 @@
 
     <form action="../myportfolio/thankyou.html" name="myContact" onsubmit="return ValidateForm();">
         <!--ThankYou.html-->
-        <!--test--->
-        <!--end*test-->
-
+      
 
 
         <div id="errorMessages"></div>
@@ -45,13 +43,13 @@
                     <div class="inputs">
                         <h2>Create Your Account</h2>
                         <label>
-                            Enter your Username (Max 15)<input type="text" name="userName" value="username" size="15"><br />
+                            Enter your Username (Max 15)<input class="boxes" type="text" name="userName" value="username"><br />
                         </label>
                         <label>
-                            Enter your Pasword (Max 15)<input type="password" name="userPassword" value="password" size="15"><br />
+                            Enter your Pasword (Max 15)<input class="boxes" type="password" name="userPassword" value="password"><br />
                         </label>
                         <label>
-                            Re-enter Password: <input type="password" name="matchUserpassword" value="Password" size="15"><br />
+                            Re-enter Password: <input class="boxes" type="password" name="matchUserpassword" value="Password"><br />
                         </label>
                         <br />
                     </div>
@@ -63,16 +61,16 @@
 
                     <div class="inputs">
                         <label>
-                            First name:<br /><input type="text" name="fName" value="first name" size="15"><br />
+                            First name:<br /><input class="boxes" type="text" name="fName" value="first name"><br />
                         </label>
                         <label>
-                            Last name: <br /><input type="text" name="lName" value="last name" size="15"><br />
+                            Last name: <br /><input class="boxes" type="text" name="lName" value="last name"><br />
                         </label>
                         <label>
-                            E-mail: <br /><input type="email" name="userEmail" value="e-mail address" size="15"><br />
+                            E-mail: <br /><input class="boxes" type="email" name="userEmail" value="e-mail address"><br />
                         </label>
                         <label>
-                            Phone Number:<br /><input type="tel" name="phoneNumber" value=" 123-123-1234" size="15"><br />
+                            Phone Number:<br /><input class="boxes" type="tel" name="phoneNumber" value=" 123-123-1234"><br />
                         </label>
                     </div>
 
@@ -84,19 +82,19 @@
                         <fieldset>
                             <legend>Current Address</legend>
                             <label>
-                                Street Address: <br /><input type="text" name="addressStreet" value="street address" size="15"><br />
+                                Street Address: <br /><input class="boxes" type="text" name="addressStreet" value="street address"><br />
                             </label>
                             <label>
-                                City: <br /><input type="text" name="addressCity" value="city" size="15"><br />
+                                City: <br /><input class="boxes" type="text" name="addressCity" value="city"><br />
                             </label>
                             <label>
-                                Zipcode:<br /> <input type="text" name="addressZipcode" value="zipcode" size="15"><br />
+                                Zipcode:<br /> <input class="boxes" type="text" name="addressZipcode" value="zipcode"><br />
                             </label>
                             <label>
                                 State:
                             </label><br />
                             <select name="selectState" id="selectstate">
-                                <option value=""></option>
+                                <option value="mySelect">please select</option>
                                 <option value="AL">Alabama</option>
                                 <option value="AK">Alaska</option>
                                 <option value="AZ">Arizona</option>
@@ -164,7 +162,7 @@
                                 Country:
                             </label>
                             <select name="selectCountry" id="selectcountry">
-                                <option value=""></option>
+                                <option value="mySelect">please select</option>
                                 <option value="Afghanistan" title="Afghanistan">Afghanistan</option>
                                 <option value="Åland Islands" title="Åland Islands">Åland Islands</option>
                                 <option value="Albania" title="Albania">Albania</option>

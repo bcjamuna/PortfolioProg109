@@ -75,7 +75,7 @@ aside {
     float: left;
     padding: 0 0 0 5px;
     margin-left: 20px;
-    margin-bottom:100%;
+    margin-bottom:70%;
     overflow:hidden;
 }
 
@@ -135,8 +135,23 @@ h2 {
     /*margin: 5px 0 5px 0;*/
     /*padding-top: 2px;*/
     color: black;
+     font-weight:400;
 }
 
+span {
+    font-size:15px;
+
+}
+h4 {
+    /*font-size: 1.25em;
+    padding: 3px 0;*/
+    font-size: 1em;
+    /*margin: 5px 0 5px 0;*/
+    color: black;
+    font-weight: 500;
+   text-decoration:underline;
+   color:#383a3c;
+}
 h3 {
     color: rgba(40, 26, 22, 0.68);
     font-size: .9em;

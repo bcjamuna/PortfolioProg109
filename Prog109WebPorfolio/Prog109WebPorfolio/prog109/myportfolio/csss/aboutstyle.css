@@ -6,7 +6,7 @@
 .wrapper {
     padding: 0 0 0 1em;
       text-align:center;
-   overflow-wrap:normal;
+  overflow:auto;
 }
 
 section.courses {
@@ -23,23 +23,58 @@ hgroup {
     
 }
 
+article {
+    display:inline-block;
+    float:none;
+    text-align:justify;
+    margin: 0 9em;
+}
+section {
+    display: block;
+    padding-top: 5px;
+    padding-right: 5px;
+    /*float:right;*/
+    float: none;
+    text-align: justify;
+    margin: 15px 5em 30px 5em; 
+   
+}
+p{
+    white-space: normal;
+    font-size:1em;
+    padding-top:5px;
+     line-height: 1.5em;
+     margin-top:1em;
+}
 
-
-figure {
+/*figure {
     float: left;
     /*width: 300px;
-    height: 220px;*/
+    height: 220px;
     padding: 5px 0 0 0;
     padding-left: 5px;
     margin: 90px 20px 20px;
     border: 1px solid #eeeeee;
 
-}
+}*/
 
+figure {
+   /* float: none;
+    width: 300px;
+    height: 220px;*/
+
+    padding: 5px 5px 3px 5px;
+    padding-left: 5px;
+    /*margin: 90px 20px 20px;*/
+    border: 3px solid rgba(147, 128, 104, 0.78);
+    margin: 10px auto 35px auto;
+    text-align: center;
+}
 figcaption {
     font-size: 80%;
-    
+       float:right;
     color: black;
+    font-style:italic;
 }
 
 aside {
@@ -56,10 +91,10 @@ aside {
         border-bottom: 1px solid #eeeeee;
     }
 
-body, html {
+/*body, html {
     overflow: auto;
     overflow-y: auto;
-}
+}*/
 
 /*for MAC
     body.noscroll{

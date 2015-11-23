@@ -144,6 +144,7 @@
     <Content Include="prog109\experimental\styles\paragraph.css" />
     <Content Include="prog109\images\bcjavatar.png" />
     <Content Include="prog109\images\bclogo.jpg" />
+    <Content Include="prog109\images\bcpine.png" />
     <Content Include="prog109\images\bcthmb.jpg" />
     <Content Include="prog109\images\bcthmbmed.jpg" />
     <Content Include="prog109\images\black-bishop.png" />
