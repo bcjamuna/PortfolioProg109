@@ -109,7 +109,9 @@
     <Content Include="Global.asax" />
     <Content Include="index.html" />
     <Content Include="prog109\artifacts\contactus.html" />
+    <Content Include="prog109\artifacts\contactusvalidated - Copy %282%29.html" />
     <Content Include="prog109\artifacts\contactusvalidated - Copy.html" />
+    <Content Include="prog109\artifacts\css\contactusstylevalidation - Copy %282%29.css" />
     <Content Include="prog109\artifacts\css\contactusstylevalidation - Copy.css" />
     <Content Include="prog109\artifacts\js\contactusjavascript - Copy.js" />
     <Content Include="prog109\artifacts\js\contactusjavascript.js" />
@@ -195,6 +197,7 @@
     <Content Include="prog109\images\slideshowthmb.png" />
     <Content Include="prog109\images\texturedwhite.jpg" />
     <Content Include="prog109\images\thankyou.jpg" />
+    <Content Include="prog109\images\validatedcontactusthmb.png" />
     <Content Include="prog109\lectures\css\week9.css" />
     <Content Include="prog109\lectures\css\week8style.css" />
     <Content Include="prog109\lectures\js\week9.js" />

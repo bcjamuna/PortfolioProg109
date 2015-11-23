@@ -1,5 +1,5 @@
 ﻿body {
-    margin: 2%;
+    margin: 0;
     padding-right: 15em;
     padding-left: 15em;
     background-image: linear-gradient(to top,#656f50, rgba(255, 255, 255, 0));
@@ -10,8 +10,9 @@
 
 }
 
-header, .wrapper {
-    max-width: 60%;
+#header, #wrapper, footer_container {
+  
+   
 }
 
 #header {
@@ -59,17 +60,12 @@ p {
 
 textarea {
     vertical-align: top;
-    
+    width: 19em;
     color: #777;
     -moz-box-sizing: padding-box;
     -webkit-box-sizing: padding-box;
     box-sizing: padding-box;
-    
-    width: 400px;
-    height: 100px;
-    max-width: 400px;
 }
-
 
 #wrapper {
     border-left: 1px solid #888;
@@ -77,13 +73,13 @@ textarea {
     border-bottom: 1px solid #888;
     position: relative;
     top: -10px;
-    padding: 5px 50px 10px 20px;
+    
     box-shadow: 3px 3px 3px #444;
     background-color: rgb(255, 255, 255);
     overflow: auto;
 }
 
-header, section, article.right, article.left, footer {
+#header, #section, article.right, article.left, #footer {
     display: block;
     position: relative;
 }
@@ -93,8 +89,14 @@ header, section, article.right, article.left, footer {
     grid-column-align: end;
 }
 
+article.left {
+    padding-left:50%;
+}
+
 article.right, article.left {
     display: inline-block;
+    padding:4em;
+    margin:1em;
     /* border-left: 1px solid #888;
     border-right: 1px solid #888;
     border-bottom: 1px solid #888;
@@ -102,13 +104,7 @@ article.right, article.left {
     position: relative; */
 }
 
-article.left {
-    float: left;
-}
 
-article.right {
-    float: right;
-}
 
 fieldset {
     border-width: 1px;
@@ -134,7 +130,21 @@ li {
     display: inline-block;
 }
 
-#inputs {
+#selectfield {
+       width: 15em;
+    clear: both;
+   text-align:left;
+   color:black;
+
+}
+
+#selectfield input{
+       width: 15em;
+        clear: both;
+         color:cadetblue;
+}
+
+#inputs{
     width: 15em;
     clear: both;
    text-align:left;
